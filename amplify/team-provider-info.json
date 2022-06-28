@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-unicornflix-dev-200115-authRole",
+      "UnauthRoleArn": "arn:aws:iam::364395758173:role/amplify-unicornflix-dev-200115-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::364395758173:role/amplify-unicornflix-dev-200115-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-unicornflix-dev-200115-deployment",
+      "UnauthRoleName": "amplify-unicornflix-dev-200115-unauthRole",
+      "StackName": "amplify-unicornflix-dev-200115",
+      "StackId": "arn:aws:cloudformation:us-east-1:364395758173:stack/amplify-unicornflix-dev-200115/701b8120-f675-11ec-a9ae-0a43efded2dd",
+      "AmplifyAppId": "d2vtghne5qqtgi",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-unicornflix-dev-200115-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "unicornflix26b826ed": {}
+      },
+      "function": {
+        "unicornflix26b826edCustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "Confirm your account with Gilli",
+          "EMAILMESSAGE": "Hello, and welcome to Gilli! Please use the following link to confirm your account. ",
+          "deploymentBucketName": "amplify-unicornflix-dev-200115-deployment",
+          "s3Key": "amplify-builds/unicornflix26b826edCustomMessage-7a7273684d584b382b69-build.zip"
+        },
+        "unicornflix26b826edPostConfirmation": {
+          "GROUP": "users",
+          "deploymentBucketName": "amplify-unicornflix-dev-200115-deployment",
+          "s3Key": "amplify-builds/unicornflix26b826edPostConfirmation-4e2f74355377474b3449-build.zip"
+        }
+      }
+    }
+  }
+}

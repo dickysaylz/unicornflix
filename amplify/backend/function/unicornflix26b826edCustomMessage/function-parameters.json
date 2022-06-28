@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "unicornflix26b826ed",
+  "functionName": "unicornflix26b826edCustomMessage",
+  "resourceName": "unicornflix26b826edCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "unicornflix26b826edCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "",
+  "EMAILSUBJECT": "Confirm your account with Gilli",
+  "EMAILMESSAGE": "Hello, and welcome to Gilli! Please use the following link to confirm your account. ",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
